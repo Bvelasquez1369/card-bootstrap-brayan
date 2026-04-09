@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    // No se necesita typewriter; el texto ya está visible.
-    // Solo mantenemos los efectos visuales.
-
     // Efecto de cambio de color en el borde de la foto
     const foto = document.getElementById('fotoPerfil');
     const colores = [
@@ -35,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     observer.observe(card);
     
-    // Fondo de partículas (nanopartículas flotantes)
+    // Fondo de partículas animadas
     const canvas = document.createElement('canvas');
     canvas.id = 'particlesCanvas';
     canvas.style.position = 'fixed';

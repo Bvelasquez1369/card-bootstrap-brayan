@@ -75,7 +75,6 @@ body {
     box-shadow: 0 0 25px rgb(0, 150, 255);
 }
 
-/* CORRECCIÓN DE ESPACIADO PARA TÍTULO Y DESCRIPCIÓN */
 .card-title,
 .card-text {
     word-spacing: normal !important;
@@ -93,7 +92,7 @@ body {
     background-clip: text;
     color: transparent;
     margin-bottom: 0.5rem;
-    letter-spacing: 1px;  /* solo decorativo, no afecta espacios entre palabras */
+    letter-spacing: 1px;
 }
 
 .card-subtitle {
