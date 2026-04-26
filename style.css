@@ -19,7 +19,7 @@ body {
 }
 
 #miCard {
-    background: url('fondo.png') no-repeat center center;
+    background: url('Fondo.png') no-repeat center center;
     background-size: cover;
     position: relative;
     border: none;
